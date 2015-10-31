@@ -239,7 +239,7 @@ public class ColorPickerView extends FrameLayout {
 
     private void onFirstLayout() {
         //First layout, lets grab the size and generate the path for
-        mThumbWheelPath = generateThumbWheelPath(mImgWheel.getMeasuredHeight(), mImgWheel.getMeasuredWidth());
+        mThumbWheelPath = generateThumbWheelPath(mImgWheel.getMeasuredWidth(), mImgWheel.getMeasuredHeight());
         //Fake a touch top center
         onTouchReceived(
                 MotionEvent.obtain(System.currentTimeMillis(),
