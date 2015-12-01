@@ -54,3 +54,21 @@ To get a better view, enable the debug drawing as followed.
         mColorPickerView.setDrawDebug(false);
 ```
 ![](/debug.png)
+
+### Adding to gradle dependencies
+=======================
+Add the repo:
+```
+ repositories {
+        // ...
+        maven { url "https://jitpack.io" }
+ }
+```
+Add the dependency:
+```
+dependencies {
+	        compile 'com.github.christophesmet:colorpicker:d84191b1cf'
+	}
+```
+
+
