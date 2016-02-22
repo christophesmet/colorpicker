@@ -35,7 +35,7 @@ Set the wheelDrawable thumbDrawable and radiusOffset and thats it !
             android:layout_height="wrap_content"/>
 ```
 Attach the colorListener
-```
+```java
         mColorPickerView.setColorListener(new ColorPickerView.ColorListener() {
             @Override
             public void onColorSelected(int color) {
@@ -49,7 +49,7 @@ Attach the colorListener
 If you change the wheel color drawable, then you'll probably want to change the radius offset.
 To get a better view, enable the debug drawing as followed.
 
-```
+```java
         //Set this to true, to enable visual debugging. To check the offset radius
         mColorPickerView.setDrawDebug(false);
 ```
@@ -58,14 +58,14 @@ To get a better view, enable the debug drawing as followed.
 ### Adding to gradle dependencies
 =======================
 Add the repo:
-```
+```groovy
  repositories {
         // ...
         maven { url "https://jitpack.io" }
  }
 ```
 Add the dependency:
-```
+```groovy
 dependencies {
 	        compile 'com.github.christophesmet:colorpicker:d84191b1cf'
 	}
