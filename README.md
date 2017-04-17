@@ -44,7 +44,7 @@ Attach the colorListener
         });
 ```
 
-###Tweaking
+### Tweaking
 =======================
 If you change the wheel color drawable, then you'll probably want to change the radius offset.
 To get a better view, enable the debug drawing as followed.
